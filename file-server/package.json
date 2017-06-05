@@ -1,0 +1,27 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "file server,storage file",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "supervisor server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "file、server"
+  ],
+  "author": "dbp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-http-proxy": "^1.0.3",
+    "fs": "0.0.1-security",
+    "morgan": "^1.8.2",
+    "multiparty": "^4.1.3"
+  }
+}
